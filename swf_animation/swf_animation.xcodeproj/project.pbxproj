@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C008021F551049007D6E15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008011F551049007D6E15 /* main.m */; };
+		17C008051F551049007D6E15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008041F551049007D6E15 /* AppDelegate.m */; };
+		17C008081F551049007D6E15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008071F551049007D6E15 /* ViewController.m */; };
+		17C0080B1F551049007D6E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C008091F551049007D6E15 /* Main.storyboard */; };
+		17C0080D1F551049007D6E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C0080C1F551049007D6E15 /* Assets.xcassets */; };
+		17C008101F551049007D6E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C0080E1F551049007D6E15 /* LaunchScreen.storyboard */; };
+		17C0081B1F551049007D6E15 /* swf_animationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0081A1F551049007D6E15 /* swf_animationTests.m */; };
+		17C008261F551049007D6E15 /* swf_animationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008251F551049007D6E15 /* swf_animationUITests.m */; };
+		17C0087A1F551069007D6E15 /* libSwiffCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C008341F551069007D6E15 /* libSwiffCore.a */; };
+		17C0087B1F551069007D6E15 /* SwiffBitmapDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008361F551069007D6E15 /* SwiffBitmapDefinition.m */; };
+		17C0087C1F551069007D6E15 /* SwiffDynamicTextAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0083A1F551069007D6E15 /* SwiffDynamicTextAttributes.m */; };
+		17C0087D1F551069007D6E15 /* SwiffDynamicTextDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0083C1F551069007D6E15 /* SwiffDynamicTextDefinition.m */; };
+		17C0087E1F551069007D6E15 /* SwiffFillStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0083E1F551069007D6E15 /* SwiffFillStyle.m */; };
+		17C0087F1F551069007D6E15 /* SwiffFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008401F551069007D6E15 /* SwiffFilter.m */; };
+		17C008801F551069007D6E15 /* SwiffFontDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008421F551069007D6E15 /* SwiffFontDefinition.m */; };
+		17C008811F551069007D6E15 /* SwiffFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008441F551069007D6E15 /* SwiffFrame.m */; };
+		17C008821F551069007D6E15 /* SwiffGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008461F551069007D6E15 /* SwiffGradient.m */; };
+		17C008831F551069007D6E15 /* SwiffHTMLToCoreTextConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008481F551069007D6E15 /* SwiffHTMLToCoreTextConverter.m */; };
+		17C008841F551069007D6E15 /* SwiffLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0084B1F551069007D6E15 /* SwiffLayer.m */; };
+		17C008851F551069007D6E15 /* SwiffLineStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0084D1F551069007D6E15 /* SwiffLineStyle.m */; };
+		17C008861F551069007D6E15 /* SwiffMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0084F1F551069007D6E15 /* SwiffMovie.m */; };
+		17C008871F551069007D6E15 /* SwiffParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008511F551069007D6E15 /* SwiffParser.m */; };
+		17C008881F551069007D6E15 /* SwiffPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008531F551069007D6E15 /* SwiffPath.m */; };
+		17C008891F551069007D6E15 /* SwiffPlacedDynamicText.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008551F551069007D6E15 /* SwiffPlacedDynamicText.m */; };
+		17C0088A1F551069007D6E15 /* SwiffPlacedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008571F551069007D6E15 /* SwiffPlacedObject.m */; };
+		17C0088B1F551069007D6E15 /* SwiffPlayhead.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008591F551069007D6E15 /* SwiffPlayhead.m */; };
+		17C0088C1F551069007D6E15 /* SwiffRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0085B1F551069007D6E15 /* SwiffRenderer.m */; };
+		17C0088D1F551069007D6E15 /* SwiffScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0085D1F551069007D6E15 /* SwiffScene.m */; };
+		17C0088E1F551069007D6E15 /* SwiffSceneAndFrameLabelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0085F1F551069007D6E15 /* SwiffSceneAndFrameLabelData.m */; };
+		17C0088F1F551069007D6E15 /* SwiffShapeDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008611F551069007D6E15 /* SwiffShapeDefinition.m */; };
+		17C008901F551069007D6E15 /* SwiffSoundDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008631F551069007D6E15 /* SwiffSoundDefinition.m */; };
+		17C008911F551069007D6E15 /* SwiffSoundEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008651F551069007D6E15 /* SwiffSoundEvent.m */; };
+		17C008921F551069007D6E15 /* SwiffSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008671F551069007D6E15 /* SwiffSoundPlayer.m */; };
+		17C008931F551069007D6E15 /* SwiffSoundStreamBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008691F551069007D6E15 /* SwiffSoundStreamBlock.m */; };
+		17C008941F551069007D6E15 /* SwiffSparseArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0086B1F551069007D6E15 /* SwiffSparseArray.m */; };
+		17C008951F551069007D6E15 /* SwiffSpriteDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0086D1F551069007D6E15 /* SwiffSpriteDefinition.m */; };
+		17C008961F551069007D6E15 /* SwiffStaticTextDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0086F1F551069007D6E15 /* SwiffStaticTextDefinition.m */; };
+		17C008971F551069007D6E15 /* SwiffStaticTextRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008711F551069007D6E15 /* SwiffStaticTextRecord.m */; };
+		17C008981F551069007D6E15 /* SwiffTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008731F551069007D6E15 /* SwiffTypes.m */; };
+		17C008991F551069007D6E15 /* SwiffUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008751F551069007D6E15 /* SwiffUtils.m */; };
+		17C0089A1F551069007D6E15 /* SwiffView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008771F551069007D6E15 /* SwiffView.m */; };
+		17C0089B1F551069007D6E15 /* SwiffWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C008791F551069007D6E15 /* SwiffWriter.m */; };
+		17C0089F1F55107B007D6E15 /* 8.swf in Resources */ = {isa = PBXBuildFile; fileRef = 17C0089C1F55107B007D6E15 /* 8.swf */; };
+		17C008A01F55107B007D6E15 /* SWFPlayMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0089E1F55107B007D6E15 /* SWFPlayMovieController.m */; };
+		17C008A51F551186007D6E15 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C008A41F551186007D6E15 /* libxml2.tbd */; };
+		17C008A71F551235007D6E15 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C008A61F551235007D6E15 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17C008171F551049007D6E15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C007F51F551049007D6E15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C007FC1F551049007D6E15;
+			remoteInfo = swf_animation;
+		};
+		17C008221F551049007D6E15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C007F51F551049007D6E15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C007FC1F551049007D6E15;
+			remoteInfo = swf_animation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17C007FD1F551049007D6E15 /* swf_animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swf_animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C008011F551049007D6E15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17C008031F551049007D6E15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17C008041F551049007D6E15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17C008061F551049007D6E15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17C008071F551049007D6E15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17C0080A1F551049007D6E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17C0080C1F551049007D6E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17C0080F1F551049007D6E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17C008111F551049007D6E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C008161F551049007D6E15 /* swf_animationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swf_animationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C0081A1F551049007D6E15 /* swf_animationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swf_animationTests.m; sourceTree = "<group>"; };
+		17C0081C1F551049007D6E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C008211F551049007D6E15 /* swf_animationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swf_animationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C008251F551049007D6E15 /* swf_animationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swf_animationUITests.m; sourceTree = "<group>"; };
+		17C008271F551049007D6E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C008341F551069007D6E15 /* libSwiffCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSwiffCore.a; sourceTree = "<group>"; };
+		17C008351F551069007D6E15 /* SwiffBitmapDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffBitmapDefinition.h; sourceTree = "<group>"; };
+		17C008361F551069007D6E15 /* SwiffBitmapDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffBitmapDefinition.m; sourceTree = "<group>"; };
+		17C008371F551069007D6E15 /* SwiffCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffCore.h; sourceTree = "<group>"; };
+		17C008381F551069007D6E15 /* SwiffDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffDefinition.h; sourceTree = "<group>"; };
+		17C008391F551069007D6E15 /* SwiffDynamicTextAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffDynamicTextAttributes.h; sourceTree = "<group>"; };
+		17C0083A1F551069007D6E15 /* SwiffDynamicTextAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffDynamicTextAttributes.m; sourceTree = "<group>"; };
+		17C0083B1F551069007D6E15 /* SwiffDynamicTextDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffDynamicTextDefinition.h; sourceTree = "<group>"; };
+		17C0083C1F551069007D6E15 /* SwiffDynamicTextDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffDynamicTextDefinition.m; sourceTree = "<group>"; };
+		17C0083D1F551069007D6E15 /* SwiffFillStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffFillStyle.h; sourceTree = "<group>"; };
+		17C0083E1F551069007D6E15 /* SwiffFillStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffFillStyle.m; sourceTree = "<group>"; };
+		17C0083F1F551069007D6E15 /* SwiffFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffFilter.h; sourceTree = "<group>"; };
+		17C008401F551069007D6E15 /* SwiffFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffFilter.m; sourceTree = "<group>"; };
+		17C008411F551069007D6E15 /* SwiffFontDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffFontDefinition.h; sourceTree = "<group>"; };
+		17C008421F551069007D6E15 /* SwiffFontDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffFontDefinition.m; sourceTree = "<group>"; };
+		17C008431F551069007D6E15 /* SwiffFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffFrame.h; sourceTree = "<group>"; };
+		17C008441F551069007D6E15 /* SwiffFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffFrame.m; sourceTree = "<group>"; };
+		17C008451F551069007D6E15 /* SwiffGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffGradient.h; sourceTree = "<group>"; };
+		17C008461F551069007D6E15 /* SwiffGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffGradient.m; sourceTree = "<group>"; };
+		17C008471F551069007D6E15 /* SwiffHTMLToCoreTextConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffHTMLToCoreTextConverter.h; sourceTree = "<group>"; };
+		17C008481F551069007D6E15 /* SwiffHTMLToCoreTextConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffHTMLToCoreTextConverter.m; sourceTree = "<group>"; };
+		17C008491F551069007D6E15 /* SwiffImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffImport.h; sourceTree = "<group>"; };
+		17C0084A1F551069007D6E15 /* SwiffLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffLayer.h; sourceTree = "<group>"; };
+		17C0084B1F551069007D6E15 /* SwiffLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffLayer.m; sourceTree = "<group>"; };
+		17C0084C1F551069007D6E15 /* SwiffLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffLineStyle.h; sourceTree = "<group>"; };
+		17C0084D1F551069007D6E15 /* SwiffLineStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffLineStyle.m; sourceTree = "<group>"; };
+		17C0084E1F551069007D6E15 /* SwiffMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffMovie.h; sourceTree = "<group>"; };
+		17C0084F1F551069007D6E15 /* SwiffMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffMovie.m; sourceTree = "<group>"; };
+		17C008501F551069007D6E15 /* SwiffParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffParser.h; sourceTree = "<group>"; };
+		17C008511F551069007D6E15 /* SwiffParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffParser.m; sourceTree = "<group>"; };
+		17C008521F551069007D6E15 /* SwiffPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffPath.h; sourceTree = "<group>"; };
+		17C008531F551069007D6E15 /* SwiffPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffPath.m; sourceTree = "<group>"; };
+		17C008541F551069007D6E15 /* SwiffPlacedDynamicText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffPlacedDynamicText.h; sourceTree = "<group>"; };
+		17C008551F551069007D6E15 /* SwiffPlacedDynamicText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffPlacedDynamicText.m; sourceTree = "<group>"; };
+		17C008561F551069007D6E15 /* SwiffPlacedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffPlacedObject.h; sourceTree = "<group>"; };
+		17C008571F551069007D6E15 /* SwiffPlacedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffPlacedObject.m; sourceTree = "<group>"; };
+		17C008581F551069007D6E15 /* SwiffPlayhead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffPlayhead.h; sourceTree = "<group>"; };
+		17C008591F551069007D6E15 /* SwiffPlayhead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffPlayhead.m; sourceTree = "<group>"; };
+		17C0085A1F551069007D6E15 /* SwiffRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffRenderer.h; sourceTree = "<group>"; };
+		17C0085B1F551069007D6E15 /* SwiffRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffRenderer.m; sourceTree = "<group>"; };
+		17C0085C1F551069007D6E15 /* SwiffScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffScene.h; sourceTree = "<group>"; };
+		17C0085D1F551069007D6E15 /* SwiffScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffScene.m; sourceTree = "<group>"; };
+		17C0085E1F551069007D6E15 /* SwiffSceneAndFrameLabelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffSceneAndFrameLabelData.h; sourceTree = "<group>"; };
+		17C0085F1F551069007D6E15 /* SwiffSceneAndFrameLabelData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffSceneAndFrameLabelData.m; sourceTree = "<group>"; };
+		17C008601F551069007D6E15 /* SwiffShapeDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffShapeDefinition.h; sourceTree = "<group>"; };
+		17C008611F551069007D6E15 /* SwiffShapeDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffShapeDefinition.m; sourceTree = "<group>"; };
+		17C008621F551069007D6E15 /* SwiffSoundDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffSoundDefinition.h; sourceTree = "<group>"; };
+		17C008631F551069007D6E15 /* SwiffSoundDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffSoundDefinition.m; sourceTree = "<group>"; };
+		17C008641F551069007D6E15 /* SwiffSoundEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffSoundEvent.h; sourceTree = "<group>"; };
+		17C008651F551069007D6E15 /* SwiffSoundEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffSoundEvent.m; sourceTree = "<group>"; };
+		17C008661F551069007D6E15 /* SwiffSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffSoundPlayer.h; sourceTree = "<group>"; };
+		17C008671F551069007D6E15 /* SwiffSoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffSoundPlayer.m; sourceTree = "<group>"; };
+		17C008681F551069007D6E15 /* SwiffSoundStreamBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffSoundStreamBlock.h; sourceTree = "<group>"; };
+		17C008691F551069007D6E15 /* SwiffSoundStreamBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffSoundStreamBlock.m; sourceTree = "<group>"; };
+		17C0086A1F551069007D6E15 /* SwiffSparseArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffSparseArray.h; sourceTree = "<group>"; };
+		17C0086B1F551069007D6E15 /* SwiffSparseArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffSparseArray.m; sourceTree = "<group>"; };
+		17C0086C1F551069007D6E15 /* SwiffSpriteDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffSpriteDefinition.h; sourceTree = "<group>"; };
+		17C0086D1F551069007D6E15 /* SwiffSpriteDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffSpriteDefinition.m; sourceTree = "<group>"; };
+		17C0086E1F551069007D6E15 /* SwiffStaticTextDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffStaticTextDefinition.h; sourceTree = "<group>"; };
+		17C0086F1F551069007D6E15 /* SwiffStaticTextDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffStaticTextDefinition.m; sourceTree = "<group>"; };
+		17C008701F551069007D6E15 /* SwiffStaticTextRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffStaticTextRecord.h; sourceTree = "<group>"; };
+		17C008711F551069007D6E15 /* SwiffStaticTextRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffStaticTextRecord.m; sourceTree = "<group>"; };
+		17C008721F551069007D6E15 /* SwiffTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffTypes.h; sourceTree = "<group>"; };
+		17C008731F551069007D6E15 /* SwiffTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffTypes.m; sourceTree = "<group>"; };
+		17C008741F551069007D6E15 /* SwiffUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffUtils.h; sourceTree = "<group>"; };
+		17C008751F551069007D6E15 /* SwiffUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffUtils.m; sourceTree = "<group>"; };
+		17C008761F551069007D6E15 /* SwiffView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffView.h; sourceTree = "<group>"; };
+		17C008771F551069007D6E15 /* SwiffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffView.m; sourceTree = "<group>"; };
+		17C008781F551069007D6E15 /* SwiffWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiffWriter.h; sourceTree = "<group>"; };
+		17C008791F551069007D6E15 /* SwiffWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiffWriter.m; sourceTree = "<group>"; };
+		17C0089C1F55107B007D6E15 /* 8.swf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8.swf; sourceTree = "<group>"; };
+		17C0089D1F55107B007D6E15 /* SWFPlayMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWFPlayMovieController.h; sourceTree = "<group>"; };
+		17C0089E1F55107B007D6E15 /* SWFPlayMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWFPlayMovieController.m; sourceTree = "<group>"; };
+		17C008A21F55117D007D6E15 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		17C008A41F551186007D6E15 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		17C008A61F551235007D6E15 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C007FA1F551049007D6E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C008A71F551235007D6E15 /* libz.tbd in Frameworks */,
+				17C008A51F551186007D6E15 /* libxml2.tbd in Frameworks */,
+				17C0087A1F551069007D6E15 /* libSwiffCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C008131F551049007D6E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C0081E1F551049007D6E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C007F41F551049007D6E15 = {
+			isa = PBXGroup;
+			children = (
+				17C007FF1F551049007D6E15 /* swf_animation */,
+				17C008191F551049007D6E15 /* swf_animationTests */,
+				17C008241F551049007D6E15 /* swf_animationUITests */,
+				17C007FE1F551049007D6E15 /* Products */,
+				17C008A11F55117D007D6E15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17C007FE1F551049007D6E15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C007FD1F551049007D6E15 /* swf_animation.app */,
+				17C008161F551049007D6E15 /* swf_animationTests.xctest */,
+				17C008211F551049007D6E15 /* swf_animationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C007FF1F551049007D6E15 /* swf_animation */ = {
+			isa = PBXGroup;
+			children = (
+				17C0089C1F55107B007D6E15 /* 8.swf */,
+				17C0089D1F55107B007D6E15 /* SWFPlayMovieController.h */,
+				17C0089E1F55107B007D6E15 /* SWFPlayMovieController.m */,
+				17C008331F551069007D6E15 /* Source */,
+				17C008031F551049007D6E15 /* AppDelegate.h */,
+				17C008041F551049007D6E15 /* AppDelegate.m */,
+				17C008061F551049007D6E15 /* ViewController.h */,
+				17C008071F551049007D6E15 /* ViewController.m */,
+				17C008091F551049007D6E15 /* Main.storyboard */,
+				17C0080C1F551049007D6E15 /* Assets.xcassets */,
+				17C0080E1F551049007D6E15 /* LaunchScreen.storyboard */,
+				17C008111F551049007D6E15 /* Info.plist */,
+				17C008001F551049007D6E15 /* Supporting Files */,
+			);
+			path = swf_animation;
+			sourceTree = "<group>";
+		};
+		17C008001F551049007D6E15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C008011F551049007D6E15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17C008191F551049007D6E15 /* swf_animationTests */ = {
+			isa = PBXGroup;
+			children = (
+				17C0081A1F551049007D6E15 /* swf_animationTests.m */,
+				17C0081C1F551049007D6E15 /* Info.plist */,
+			);
+			path = swf_animationTests;
+			sourceTree = "<group>";
+		};
+		17C008241F551049007D6E15 /* swf_animationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17C008251F551049007D6E15 /* swf_animationUITests.m */,
+				17C008271F551049007D6E15 /* Info.plist */,
+			);
+			path = swf_animationUITests;
+			sourceTree = "<group>";
+		};
+		17C008331F551069007D6E15 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				17C008341F551069007D6E15 /* libSwiffCore.a */,
+				17C008351F551069007D6E15 /* SwiffBitmapDefinition.h */,
+				17C008361F551069007D6E15 /* SwiffBitmapDefinition.m */,
+				17C008371F551069007D6E15 /* SwiffCore.h */,
+				17C008381F551069007D6E15 /* SwiffDefinition.h */,
+				17C008391F551069007D6E15 /* SwiffDynamicTextAttributes.h */,
+				17C0083A1F551069007D6E15 /* SwiffDynamicTextAttributes.m */,
+				17C0083B1F551069007D6E15 /* SwiffDynamicTextDefinition.h */,
+				17C0083C1F551069007D6E15 /* SwiffDynamicTextDefinition.m */,
+				17C0083D1F551069007D6E15 /* SwiffFillStyle.h */,
+				17C0083E1F551069007D6E15 /* SwiffFillStyle.m */,
+				17C0083F1F551069007D6E15 /* SwiffFilter.h */,
+				17C008401F551069007D6E15 /* SwiffFilter.m */,
+				17C008411F551069007D6E15 /* SwiffFontDefinition.h */,
+				17C008421F551069007D6E15 /* SwiffFontDefinition.m */,
+				17C008431F551069007D6E15 /* SwiffFrame.h */,
+				17C008441F551069007D6E15 /* SwiffFrame.m */,
+				17C008451F551069007D6E15 /* SwiffGradient.h */,
+				17C008461F551069007D6E15 /* SwiffGradient.m */,
+				17C008471F551069007D6E15 /* SwiffHTMLToCoreTextConverter.h */,
+				17C008481F551069007D6E15 /* SwiffHTMLToCoreTextConverter.m */,
+				17C008491F551069007D6E15 /* SwiffImport.h */,
+				17C0084A1F551069007D6E15 /* SwiffLayer.h */,
+				17C0084B1F551069007D6E15 /* SwiffLayer.m */,
+				17C0084C1F551069007D6E15 /* SwiffLineStyle.h */,
+				17C0084D1F551069007D6E15 /* SwiffLineStyle.m */,
+				17C0084E1F551069007D6E15 /* SwiffMovie.h */,
+				17C0084F1F551069007D6E15 /* SwiffMovie.m */,
+				17C008501F551069007D6E15 /* SwiffParser.h */,
+				17C008511F551069007D6E15 /* SwiffParser.m */,
+				17C008521F551069007D6E15 /* SwiffPath.h */,
+				17C008531F551069007D6E15 /* SwiffPath.m */,
+				17C008541F551069007D6E15 /* SwiffPlacedDynamicText.h */,
+				17C008551F551069007D6E15 /* SwiffPlacedDynamicText.m */,
+				17C008561F551069007D6E15 /* SwiffPlacedObject.h */,
+				17C008571F551069007D6E15 /* SwiffPlacedObject.m */,
+				17C008581F551069007D6E15 /* SwiffPlayhead.h */,
+				17C008591F551069007D6E15 /* SwiffPlayhead.m */,
+				17C0085A1F551069007D6E15 /* SwiffRenderer.h */,
+				17C0085B1F551069007D6E15 /* SwiffRenderer.m */,
+				17C0085C1F551069007D6E15 /* SwiffScene.h */,
+				17C0085D1F551069007D6E15 /* SwiffScene.m */,
+				17C0085E1F551069007D6E15 /* SwiffSceneAndFrameLabelData.h */,
+				17C0085F1F551069007D6E15 /* SwiffSceneAndFrameLabelData.m */,
+				17C008601F551069007D6E15 /* SwiffShapeDefinition.h */,
+				17C008611F551069007D6E15 /* SwiffShapeDefinition.m */,
+				17C008621F551069007D6E15 /* SwiffSoundDefinition.h */,
+				17C008631F551069007D6E15 /* SwiffSoundDefinition.m */,
+				17C008641F551069007D6E15 /* SwiffSoundEvent.h */,
+				17C008651F551069007D6E15 /* SwiffSoundEvent.m */,
+				17C008661F551069007D6E15 /* SwiffSoundPlayer.h */,
+				17C008671F551069007D6E15 /* SwiffSoundPlayer.m */,
+				17C008681F551069007D6E15 /* SwiffSoundStreamBlock.h */,
+				17C008691F551069007D6E15 /* SwiffSoundStreamBlock.m */,
+				17C0086A1F551069007D6E15 /* SwiffSparseArray.h */,
+				17C0086B1F551069007D6E15 /* SwiffSparseArray.m */,
+				17C0086C1F551069007D6E15 /* SwiffSpriteDefinition.h */,
+				17C0086D1F551069007D6E15 /* SwiffSpriteDefinition.m */,
+				17C0086E1F551069007D6E15 /* SwiffStaticTextDefinition.h */,
+				17C0086F1F551069007D6E15 /* SwiffStaticTextDefinition.m */,
+				17C008701F551069007D6E15 /* SwiffStaticTextRecord.h */,
+				17C008711F551069007D6E15 /* SwiffStaticTextRecord.m */,
+				17C008721F551069007D6E15 /* SwiffTypes.h */,
+				17C008731F551069007D6E15 /* SwiffTypes.m */,
+				17C008741F551069007D6E15 /* SwiffUtils.h */,
+				17C008751F551069007D6E15 /* SwiffUtils.m */,
+				17C008761F551069007D6E15 /* SwiffView.h */,
+				17C008771F551069007D6E15 /* SwiffView.m */,
+				17C008781F551069007D6E15 /* SwiffWriter.h */,
+				17C008791F551069007D6E15 /* SwiffWriter.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		17C008A11F55117D007D6E15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17C008A61F551235007D6E15 /* libz.tbd */,
+				17C008A41F551186007D6E15 /* libxml2.tbd */,
+				17C008A21F55117D007D6E15 /* libxml2.2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17C007FC1F551049007D6E15 /* swf_animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C0082A1F551049007D6E15 /* Build configuration list for PBXNativeTarget "swf_animation" */;
+			buildPhases = (
+				17C007F91F551049007D6E15 /* Sources */,
+				17C007FA1F551049007D6E15 /* Frameworks */,
+				17C007FB1F551049007D6E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swf_animation;
+			productName = swf_animation;
+			productReference = 17C007FD1F551049007D6E15 /* swf_animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17C008151F551049007D6E15 /* swf_animationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C0082D1F551049007D6E15 /* Build configuration list for PBXNativeTarget "swf_animationTests" */;
+			buildPhases = (
+				17C008121F551049007D6E15 /* Sources */,
+				17C008131F551049007D6E15 /* Frameworks */,
+				17C008141F551049007D6E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C008181F551049007D6E15 /* PBXTargetDependency */,
+			);
+			name = swf_animationTests;
+			productName = swf_animationTests;
+			productReference = 17C008161F551049007D6E15 /* swf_animationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17C008201F551049007D6E15 /* swf_animationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C008301F551049007D6E15 /* Build configuration list for PBXNativeTarget "swf_animationUITests" */;
+			buildPhases = (
+				17C0081D1F551049007D6E15 /* Sources */,
+				17C0081E1F551049007D6E15 /* Frameworks */,
+				17C0081F1F551049007D6E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C008231F551049007D6E15 /* PBXTargetDependency */,
+			);
+			name = swf_animationUITests;
+			productName = swf_animationUITests;
+			productReference = 17C008211F551049007D6E15 /* swf_animationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17C007F51F551049007D6E15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Bolo;
+				TargetAttributes = {
+					17C007FC1F551049007D6E15 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SD3R6PGCNS;
+						ProvisioningStyle = Automatic;
+					};
+					17C008151F551049007D6E15 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SD3R6PGCNS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17C007FC1F551049007D6E15;
+					};
+					17C008201F551049007D6E15 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SD3R6PGCNS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17C007FC1F551049007D6E15;
+					};
+				};
+			};
+			buildConfigurationList = 17C007F81F551049007D6E15 /* Build configuration list for PBXProject "swf_animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17C007F41F551049007D6E15;
+			productRefGroup = 17C007FE1F551049007D6E15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C007FC1F551049007D6E15 /* swf_animation */,
+				17C008151F551049007D6E15 /* swf_animationTests */,
+				17C008201F551049007D6E15 /* swf_animationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17C007FB1F551049007D6E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C008101F551049007D6E15 /* LaunchScreen.storyboard in Resources */,
+				17C0080D1F551049007D6E15 /* Assets.xcassets in Resources */,
+				17C0080B1F551049007D6E15 /* Main.storyboard in Resources */,
+				17C0089F1F55107B007D6E15 /* 8.swf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C008141F551049007D6E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C0081F1F551049007D6E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C007F91F551049007D6E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C008911F551069007D6E15 /* SwiffSoundEvent.m in Sources */,
+				17C0088C1F551069007D6E15 /* SwiffRenderer.m in Sources */,
+				17C008821F551069007D6E15 /* SwiffGradient.m in Sources */,
+				17C008081F551049007D6E15 /* ViewController.m in Sources */,
+				17C008841F551069007D6E15 /* SwiffLayer.m in Sources */,
+				17C0088D1F551069007D6E15 /* SwiffScene.m in Sources */,
+				17C008A01F55107B007D6E15 /* SWFPlayMovieController.m in Sources */,
+				17C008831F551069007D6E15 /* SwiffHTMLToCoreTextConverter.m in Sources */,
+				17C008871F551069007D6E15 /* SwiffParser.m in Sources */,
+				17C008801F551069007D6E15 /* SwiffFontDefinition.m in Sources */,
+				17C008931F551069007D6E15 /* SwiffSoundStreamBlock.m in Sources */,
+				17C0087C1F551069007D6E15 /* SwiffDynamicTextAttributes.m in Sources */,
+				17C008051F551049007D6E15 /* AppDelegate.m in Sources */,
+				17C0089B1F551069007D6E15 /* SwiffWriter.m in Sources */,
+				17C0088F1F551069007D6E15 /* SwiffShapeDefinition.m in Sources */,
+				17C0087D1F551069007D6E15 /* SwiffDynamicTextDefinition.m in Sources */,
+				17C0088B1F551069007D6E15 /* SwiffPlayhead.m in Sources */,
+				17C008991F551069007D6E15 /* SwiffUtils.m in Sources */,
+				17C008891F551069007D6E15 /* SwiffPlacedDynamicText.m in Sources */,
+				17C008941F551069007D6E15 /* SwiffSparseArray.m in Sources */,
+				17C008861F551069007D6E15 /* SwiffMovie.m in Sources */,
+				17C008901F551069007D6E15 /* SwiffSoundDefinition.m in Sources */,
+				17C008021F551049007D6E15 /* main.m in Sources */,
+				17C0089A1F551069007D6E15 /* SwiffView.m in Sources */,
+				17C0088A1F551069007D6E15 /* SwiffPlacedObject.m in Sources */,
+				17C0087F1F551069007D6E15 /* SwiffFilter.m in Sources */,
+				17C008961F551069007D6E15 /* SwiffStaticTextDefinition.m in Sources */,
+				17C008981F551069007D6E15 /* SwiffTypes.m in Sources */,
+				17C008811F551069007D6E15 /* SwiffFrame.m in Sources */,
+				17C0087B1F551069007D6E15 /* SwiffBitmapDefinition.m in Sources */,
+				17C0087E1F551069007D6E15 /* SwiffFillStyle.m in Sources */,
+				17C008921F551069007D6E15 /* SwiffSoundPlayer.m in Sources */,
+				17C008851F551069007D6E15 /* SwiffLineStyle.m in Sources */,
+				17C008951F551069007D6E15 /* SwiffSpriteDefinition.m in Sources */,
+				17C008971F551069007D6E15 /* SwiffStaticTextRecord.m in Sources */,
+				17C008881F551069007D6E15 /* SwiffPath.m in Sources */,
+				17C0088E1F551069007D6E15 /* SwiffSceneAndFrameLabelData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C008121F551049007D6E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C0081B1F551049007D6E15 /* swf_animationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C0081D1F551049007D6E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C008261F551049007D6E15 /* swf_animationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17C008181F551049007D6E15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C007FC1F551049007D6E15 /* swf_animation */;
+			targetProxy = 17C008171F551049007D6E15 /* PBXContainerItemProxy */;
+		};
+		17C008231F551049007D6E15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C007FC1F551049007D6E15 /* swf_animation */;
+			targetProxy = 17C008221F551049007D6E15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17C008091F551049007D6E15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C0080A1F551049007D6E15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17C0080E1F551049007D6E15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C0080F1F551049007D6E15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17C008281F551049007D6E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17C008291F551049007D6E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17C0082B1F551049007D6E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SD3R6PGCNS;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/swf_animation/Source\"";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/swf_animation/Source\"",
+					/usr/include/libxml2/,
+				);
+				INFOPLIST_FILE = swf_animation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/swf_animation/Source",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengei.iap.test.swf-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17C0082C1F551049007D6E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SD3R6PGCNS;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/swf_animation/Source\"";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/swf_animation/Source\"",
+					/usr/include/libxml2/,
+				);
+				INFOPLIST_FILE = swf_animation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/swf_animation/Source",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengei.iap.test.swf-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17C0082E1F551049007D6E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SD3R6PGCNS;
+				INFOPLIST_FILE = swf_animationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengei.iap.test.swf-animationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swf_animation.app/swf_animation";
+			};
+			name = Debug;
+		};
+		17C0082F1F551049007D6E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SD3R6PGCNS;
+				INFOPLIST_FILE = swf_animationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengei.iap.test.swf-animationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swf_animation.app/swf_animation";
+			};
+			name = Release;
+		};
+		17C008311F551049007D6E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SD3R6PGCNS;
+				INFOPLIST_FILE = swf_animationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengei.iap.test.swf-animationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = swf_animation;
+			};
+			name = Debug;
+		};
+		17C008321F551049007D6E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SD3R6PGCNS;
+				INFOPLIST_FILE = swf_animationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengei.iap.test.swf-animationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = swf_animation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C007F81F551049007D6E15 /* Build configuration list for PBXProject "swf_animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C008281F551049007D6E15 /* Debug */,
+				17C008291F551049007D6E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C0082A1F551049007D6E15 /* Build configuration list for PBXNativeTarget "swf_animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C0082B1F551049007D6E15 /* Debug */,
+				17C0082C1F551049007D6E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17C0082D1F551049007D6E15 /* Build configuration list for PBXNativeTarget "swf_animationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C0082E1F551049007D6E15 /* Debug */,
+				17C0082F1F551049007D6E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17C008301F551049007D6E15 /* Build configuration list for PBXNativeTarget "swf_animationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C008311F551049007D6E15 /* Debug */,
+				17C008321F551049007D6E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17C007F51F551049007D6E15 /* Project object */;
+}
